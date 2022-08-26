@@ -1,0 +1,8 @@
+# M1 Tensorflow install 
+
+conda install -c apple tensorflow-deps
+python -m pip install tensorflow-macos
+python -m pip install tensorflow-metal
+
+
+
