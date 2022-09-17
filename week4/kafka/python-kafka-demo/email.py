@@ -11,7 +11,7 @@ consumer = KafkaConsumer(
     bootstrap_servers="localhost:29092"
 )
 
-emails_sent_so_far = set()
+emails_sent_so_far = set() #몇개나 보냈는지 확인해주기
 print("Gonna start listening")
 while True:
     for message in consumer:
